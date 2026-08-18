@@ -61,29 +61,6 @@ On the fixed 80:20 stratified test split (`random_state=42`), Random Forest achi
 ## Streamlit App Link
 **Live Streamlit App:** `https://mlassignment2-xgq9ohsmwsrpe5bn7ly8fy.streamlit.app/`
 
-## Project Structure
-```text
-ML_Assignment_2/
-│-- app.py
-│-- requirements.txt
-│-- README.md
-│-- test_data.csv
-│-- Assignment_Report.txt
-│-- model/
-│   │-- models.py
-│   │-- evaluation_metrics.csv
-│   │-- logistic_regression.joblib
-│   │-- decision_tree.joblib
-│   │-- knn.joblib
-│   │-- naive_bayes.joblib
-│   │-- random_forest.joblib
-```
-
-## How to Run
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
 
 ## Reproducibility
 - Train/test split: 80/20
