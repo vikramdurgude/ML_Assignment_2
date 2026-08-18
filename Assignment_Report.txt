@@ -1,0 +1,40 @@
+MACHINE LEARNING ASSIGNMENT – 2
+Wisconsin Diagnostic Breast Cancer Classification
+
+Student Name: ______________________________
+BITS ID: ___________________________________
+Date: ______________________________________
+
+1. PROBLEM STATEMENT
+Build and compare five classification models to predict whether a breast tumor is benign or malignant. Evaluate the models using Accuracy, AUC, Precision, Recall, F1 Score and MCC.
+
+2. DATASET DESCRIPTION
+The Wisconsin Diagnostic Breast Cancer (WDBC) dataset contains 569 instances and 30 real-valued input features. The target is binary: benign (0) and malignant (1).
+
+3. GITHUB REPOSITORY LINK
+PASTE-YOUR-GITHUB-REPOSITORY-LINK-HERE
+
+4. MODEL COMPARISON
+
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|---|---:|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.9649 | 0.9960 | 0.9750 | 0.9286 | 0.9512 | 0.9245 |
+| Decision Tree | 0.9211 | 0.9448 | 0.9459 | 0.8333 | 0.8861 | 0.8299 |
+| kNN | 0.9561 | 0.9825 | 0.9744 | 0.9048 | 0.9383 | 0.9058 |
+| Naive Bayes | 0.9386 | 0.9934 | 1.0000 | 0.8333 | 0.9091 | 0.8715 |
+| Random Forest | 0.9737 | 0.9944 | 1.0000 | 0.9286 | 0.9630 | 0.9442 |
+
+5. OBSERVATIONS
+- Logistic Regression: Very strong baseline with high accuracy and AUC, giving balanced precision and recall.
+- Decision Tree: Good performance, but lower than the other stronger models on this test split.
+- kNN: Strong performance after standardization, with good accuracy and balanced classification results.
+- Naive Bayes: High AUC and perfect precision on this split, although recall is lower than the top models.
+- Random Forest: Best overall performance on this test split, achieving the highest accuracy, F1 and MCC.
+
+OVERALL WINNER: Random Forest
+
+6. STREAMLIT APP LINK
+PASTE-YOUR-STREAMLIT-COMMUNITY-CLOUD-LINK-HERE
+
+7. SCREENSHOT
+Insert ONE screenshot showing the assignment execution on BITS Virtual Lab here.
