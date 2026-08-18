@@ -63,7 +63,7 @@ On the fixed 80:20 stratified test split (`random_state=42`), Random Forest achi
 
 ## Project Structure
 ```text
-ML_Assignment_2_WDBC/
+ML_Assignment_2/
 │-- app.py
 │-- requirements.txt
 │-- README.md
