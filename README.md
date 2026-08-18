@@ -14,7 +14,7 @@ Dataset: Wisconsin Diagnostic Breast Cancer (WDBC), from the University of Wisco
 - Missing values: none
 
 ## c. Github Repository Link
-**GitHub Repository:** `PASTE-YOUR-GITHUB-REPOSITORY-LINK-HERE`
+**GitHub Repository:** `https://github.com/vikramdurgude/ML_Assignment_2.git`
 
 ## d. Models Used
 The five required models are:
