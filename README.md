@@ -59,7 +59,7 @@ On the fixed 80:20 stratified test split (`random_state=42`), Random Forest achi
 6. Prediction table and downloadable predictions CSV.
 
 ## Streamlit App Link
-**Live Streamlit App:** `https://mlassignment2-xgq9ohsmwsrpe5bn7ly8fy.streamlit.app/`
+**Live Streamlit App:** https://mlassignment2-xgq9ohsmwsrpe5bn7ly8fy.streamlit.app/
 
 
 ## Reproducibility
